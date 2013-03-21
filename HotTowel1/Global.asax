@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="HotTowel1.MvcApplication" Language="C#" %>

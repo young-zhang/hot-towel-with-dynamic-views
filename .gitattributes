@@ -1,0 +1,66 @@
+# Source https://help.github.com/articles/dealing-with-line-endings
+# Set default behaviour, in case users don't have core.autocrlf set.
+* text=auto
+
+*.ascx text
+*.cd text
+*.cmd text
+*.coffee text
+*.config text
+*.c text
+*.cmd text
+*.cs text diff=csharp 
+*.csproj text merge=union 
+*.cshtml text
+*.css text
+*.dtd text
+*.edmx text
+*.h text
+*.htm text
+*.html text
+*.js text
+*.json text
+*.msbuild text
+*.nuspec text
+*.ps1 text
+*.psm1 text
+*.resx text
+*.ruleset text
+*.sql text
+*.StyleCop text
+*.targets text
+*.tt text
+*.txt text
+*.vb text
+*.vbhtml text
+*.vbproj text merge=union 
+*.vbs text
+*.wsf text
+*.xml text
+*.xunit text
+
+# Denote all files that are truly binary and should not be modified.
+*.bmp binary
+*.dll binary
+*.gif binary
+*.ico binary
+*.jpg binary
+*.png binary
+*.snk binary
+
+# Declare files that will always have CRLF line endings on checkout.
+*.sln text eol=crlf merge=union 
+
+# Standard to msysgit
+*.doc diff=astextplain
+*.DOC diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot diff=astextplain
+*.DOT diff=astextplain
+*.pdf diff=astextplain
+*.PDF diff=astextplain
+*.rtf diff=astextplain
+*.RTF diff=astextplain
+
+core.autocrlf=true
